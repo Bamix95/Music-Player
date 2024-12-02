@@ -1,0 +1,22 @@
+.track_container {
+  width: 100%;
+}
+.track_wrapper {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+}
+.track_wrapper:hover {
+  background-color: rgb(236, 220, 220);
+}
+.artist_info {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  gap: 6px;
+}

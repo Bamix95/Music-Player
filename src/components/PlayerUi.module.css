@@ -1,0 +1,75 @@
+.playerui_container {
+  width: 100%;
+  margin: 0 auto;
+}
+.playerui_image_wrapper {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+}
+.playerui_image {
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+  border-radius: 100%;
+  margin: 5px auto;
+}
+.btns {
+  display: flex;
+  width: 70%;
+  align-items: center;
+  justify-content: space-between;
+  margin: 8px auto;
+}
+.play_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.playui_title {
+  width: 90%;
+  margin: 16px auto;
+}
+.playui_title p {
+  margin-bottom: 8px;
+}
+.progress_bar {
+  width: 80%;
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+}
+.progress_bar input {
+  width: 70%;
+  cursor: pointer;
+  height: 2px;
+  margin: 0 auto;
+  outline: none;
+  border-radius: 3px;
+}
+.progress_bar input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 20px;
+  background: #4caf50 !important;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.repeat_button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.active_button {
+  background-color: rgb(236, 220, 220);
+  border-radius: 70%;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
